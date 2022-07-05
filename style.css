@@ -6,6 +6,7 @@
 
 body {
   background-color: aliceblue;
+  font-family: sans-serif;
 }
 
 /* header-section */
@@ -17,7 +18,117 @@ header {
 .logo-container {
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
 }
 
+.logo-text {
+  padding: 10px;
+  font-size: 2.8rem;
+}
 /* / header-section */
+
+/* container section */
+
+.container {
+  width: 1024px;
+  height: fit-content;
+  background-color: white;
+
+  margin: 40px auto;
+  border-radius: 10px;
+}
+
+/* / container section */
+
+/* buttons container */
+
+.buttons-container {
+  padding: 15px;
+
+  border-bottom: 2px solid aliceblue;
+}
+
+/*/ buttons container */
+
+/* list-section */
+
+.list-container {
+  padding: 40px;
+}
+
+.list {
+  margin: 25px 0px;
+}
+
+.list-title {
+  margin-bottom: 10px;
+}
+
+.list-item {
+  display: flex;
+
+  align-items: center;
+  gap: 10px;
+
+  margin: 10px 0px;
+}
+
+.check-mark {
+  width: 20px;
+  height: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  border: 1.5px solid rgb(0, 0, 0);
+
+  color: green;
+  font-size: 0.9rem;
+}
+
+.uncheck-mark {
+  width: 20px;
+  height: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  border: 1.5px solid rgb(214, 60, 60);
+
+  color: red;
+  font-size: 0.9rem;
+}
+
+.badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 20px;
+  background-color: gray;
+  color: white;
+}
+
+/* badge colors */
+.badge-color-1 {
+  background-color: azure;
+}
+.badge-color-2 {
+  background-color: azure;
+}
+.badge-color-3 {
+  background-color: azure;
+}
+.badge-color-4 {
+  background-color: azure;
+}
+.badge-color-5 {
+  background-color: azure;
+}
+.badge-color-6 {
+  background-color: azure;
+}
+
+/* / list-section */
