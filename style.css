@@ -1,13 +1,27 @@
+/* general style */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
 body {
-  background-color: aliceblue;
+  background-color: #f6f8f9;
   font-family: sans-serif;
 }
+
+/* general style */
 
 /* header-section */
 
@@ -43,9 +57,25 @@ header {
 /* buttons container */
 
 .buttons-container {
-  padding: 15px;
+  padding: 10px 40px;
 
-  border-bottom: 2px solid aliceblue;
+  border-bottom: 2px solid #f6f8f9;
+}
+
+.btn-1 {
+  padding: 7px 8px;
+  background-color: #44abea;
+  color: white;
+  font-size: 0.8rem;
+  border-radius: 5px;
+}
+
+.btn-2 {
+  padding: 7px 8px;
+  color: rgb(197, 197, 197);
+  font-size: 0.8rem;
+  border-radius: 5px;
+  border: 1px solid rgb(197, 197, 197);
 }
 
 /*/ buttons container */
@@ -82,9 +112,9 @@ header {
   justify-content: center;
 
   border-radius: 50%;
-  border: 1.5px solid rgb(0, 0, 0);
+  border: 1.5px solid #64c0a9;
 
-  color: green;
+  color: #64c0a9;
   font-size: 0.9rem;
 }
 
@@ -105,30 +135,33 @@ header {
 
 .badge {
   display: inline-block;
-  padding: 3px 10px;
+  padding: 5px 13px;
   border-radius: 20px;
   background-color: gray;
+
   color: white;
+  font-size: 0.8rem;
 }
 
 /* badge colors */
 .badge-color-1 {
-  background-color: azure;
+  background-color: #44abea;
 }
 .badge-color-2 {
-  background-color: azure;
+  background-color: #9c72e4;
 }
 .badge-color-3 {
-  background-color: azure;
+  background-color: #64c0a9;
 }
 .badge-color-4 {
-  background-color: azure;
+  background-color: #f29e33;
 }
 .badge-color-5 {
-  background-color: azure;
+  background-color: #d863a1;
 }
 .badge-color-6 {
-  background-color: azure;
+  background-color: #b0c926;
 }
+/* / badge colors */
 
 /* / list-section */
