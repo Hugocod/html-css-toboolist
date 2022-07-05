@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+/* header-section */
+
+header {
+  background-color: rgb(255, 255, 255);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+/* / header-section */
